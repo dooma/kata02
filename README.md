@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Football
 
 TODO: Write a gem description
@@ -27,3 +28,9 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Added some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+=======
+kata02
+======
+
+football team
+>>>>>>> 23a2d488d606138d8fbe641a12ffe0fb2124f52b
