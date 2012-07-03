@@ -10,9 +10,12 @@ class TestFootball
 		end
 	end
 	describe "#write" do
-		it "output should be nil before run " do
-			kata02.write.should be_nil
-			kata02.write
+		it "output should not be nil after run " do
+			kata02.write.should_not be_nil
+		end
+		it "output should be Leincester" do
+			result = kata02.write
+			result.should eq("Leicester")
 		end
 	end
 end
