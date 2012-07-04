@@ -1,4 +1,4 @@
-require "/home/calin/football/lib/football/version"
+require "/football/version"
 
 class FootballClass
 	attr_accessor :file_contents
@@ -40,4 +40,4 @@ class FootballClass
 		return team
 	end
 end
-
+Football.new.write
